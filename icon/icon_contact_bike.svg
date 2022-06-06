@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49.556" height="31.286" viewBox="0 0 49.556 31.286">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_148" data-name="Rectángulo 148" width="49.556" height="31.286" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="icon_contact_bike" transform="translate(0 0)">
+    <g id="Grupo_129" data-name="Grupo 129" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Trazado_2049" data-name="Trazado 2049" d="M19.8,21.629A9.649,9.649,0,1,1,10.15,11.98,9.648,9.648,0,0,1,19.8,21.629Z" transform="translate(-0.02 -0.472)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="Elipse_38" data-name="Elipse 38" cx="7.149" cy="7.149" r="7.149" transform="translate(2.98 14.007)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Trazado_2050" data-name="Trazado 2050" d="M50.3,21.629A9.649,9.649,0,1,1,40.65,11.98,9.648,9.648,0,0,1,50.3,21.629Z" transform="translate(-1.223 -0.472)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="Elipse_39" data-name="Elipse 39" cx="7.149" cy="7.149" r="7.149" transform="translate(32.277 14.007)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Trazado_2051" data-name="Trazado 2051" d="M42.608,21.958a1.63,1.63,0,1,1-1.63-1.63A1.63,1.63,0,0,1,42.608,21.958Z" transform="translate(-1.552 -0.802)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="Elipse_40" data-name="Elipse 40" cx="1.63" cy="1.63" r="1.63" transform="translate(8.499 19.527)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <circle id="Elipse_41" data-name="Elipse 41" cx="2.716" cy="2.716" r="2.716" transform="translate(19.84 18.449)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Línea_630" data-name="Línea 630" x2="8.081" y2="0.01" transform="translate(11.759 21.157)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Trazado_2052" data-name="Trazado 2052" d="M11.111,19.9,17.717,6.909h16.6" transform="translate(-0.438 -0.272)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Línea_631" data-name="Línea 631" x1="5.348" y1="14.54" transform="translate(16.432 4.028)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Trazado_2053" data-name="Trazado 2053" d="M40.162,3.6H34.169l5.993,16.39" transform="translate(-1.348 -0.142)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Línea_632" data-name="Línea 632" y1="11.16" x2="10.135" transform="translate(24.333 7.961)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Línea_633" data-name="Línea 633" y2="5.693" transform="translate(22.556 21.166)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <line id="Línea_634" data-name="Línea 634" x2="3.18" transform="translate(20.997 26.859)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Trazado_2054" data-name="Trazado 2054" d="M12.784.5H19.96a2.253,2.253,0,0,1,1.692.765l.729.826a.441.441,0,0,1-.331.733H19.485a1.47,1.47,0,0,0-1.108.5,2.106,2.106,0,0,1-1.585.72H15.054a2.779,2.779,0,0,1-2.284-1.2l-.694-1A.859.859,0,0,1,12.784.5Z" transform="translate(-0.47 -0.019)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Trazado_2055" data-name="Trazado 2055" d="M41.308,9.371a3.383,3.383,0,0,1-1.737-.478.961.961,0,0,1,.986-1.649,1.465,1.465,0,1,0,.751-2.724.961.961,0,0,1,0-1.921,3.386,3.386,0,0,1,0,6.773Z" transform="translate(-1.543 -0.102)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

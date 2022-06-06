@@ -1,0 +1,135 @@
+:root{
+
+    /* -------------------colors */
+    --yellow-soft: #ffdc8c;
+    --yellow: #eebf53;
+    --green-soft: #96e0aa;
+    --green: #59b377;
+    --green-hard: #368e53;
+    --black: #262626;
+    --gray1: #4c4c4c;
+    --gray2: #a8a8a8;
+    --gray3: #cccccc;
+    --gray4: #f7f7f7;
+    --white: #ffffff;
+
+    /* -------------------font */
+    --h1: 48px;
+    --h2: 32px;
+    --h3: 20px;
+    --CTA: 16px;
+    --p: 16px;
+    --psmall: 14px;
+    --detalle: 12px;
+
+    /* ---- */
+
+    --h1-line-spacing: 50px;
+    --h2-line-spacing: 40px;
+    --h3-line-spacing: 25px;
+    --CTA-line-spacing: 22px;
+    --p-line-spacing: 22px;
+    --psmall-line-spacing: 20px;
+    --detalle-line-spacing: 18px;    
+
+    /* ---- */
+
+    --extra-bold: 800;
+    --bold: bold;
+    --regular: normal;
+    --light: 300;
+}
+
+
+@media (max-width: 960px) {
+
+    body{
+        box-sizing: border-box;   
+        overflow-x: hidden; 
+    } 
+
+    
+    /* nav .container_nav .info_nav_right a{
+        display: none;
+    } */
+
+    nav .menu_content{
+        width: 80%;
+        padding-top: 50px;
+    }
+
+    nav .menu_content .menu_icon_close img{
+        top: -76px;
+        right: 24px;
+    }
+
+    nav .active {
+        transform: translateX(800px);
+    }
+
+    .hero{
+        height: auto;
+    }
+
+    .hero .container_hero {
+        width: 90%;
+        padding-top: 50px;
+    }
+
+    .hero .container_hero img{
+        width: 50%;
+        height: auto;
+    }
+
+    .benefic {
+        width: 90%;
+        margin: 90px auto 90px auto;
+    }
+
+    .benefic .container_benefics {
+        grid-template-rows: 0.5fr 1.5fr 1fr 2fr;
+    }
+
+    .benefic .container_benefics .item_benefic p{
+        font-size: var(--psmall);
+    }
+
+    .steps .steps_container {
+        width: 90%;
+        padding-top: 90px;
+    }
+
+    .transport_type_container {
+        width: 90%;
+        margin: 90px auto 0 auto;
+    }
+
+    /* -------------- */
+
+    .our_tools_container{
+        display: none;
+    }
+
+    .time_line{
+        display: none;
+    }
+
+    .transport_type_divisor{
+        display: none;
+    }
+
+    .contact_container{
+        display: none;
+    }
+
+    .download_container{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+  
+
+}

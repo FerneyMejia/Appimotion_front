@@ -1,0 +1,14 @@
+<svg id="icon_benefic_health" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43.534" height="43.64" viewBox="0 0 43.534 43.64">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_124" data-name="Rectángulo 124" width="43.534" height="43.64" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_91" data-name="Grupo 91" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Trazado_1695" data-name="Trazado 1695" d="M43.534,10.252c0,12.022-9.745,33.387-21.767,33.387a21.767,21.767,0,1,1,0-43.534c12.022,0,21.767-1.875,21.767,10.147" transform="translate(0 0)" fill="#ffdc8c"/>
+    <path id="Trazado_1696" data-name="Trazado 1696" d="M41.113,15.942c0,13.963-19.974,23.257-19.974,23.257S1.149,30.476,1.149,15.942c0-12.653,17.956-14.5,19.82-3.19a.166.166,0,0,0,.17.154.163.163,0,0,0,.154-.154c1.927-10.912,19.82-9.186,19.82,3.19" transform="translate(0.178 0.813)" fill="#96e0aa"/>
+    <path id="Trazado_1697" data-name="Trazado 1697" d="M21.139,12.907V39.2S1.15,30.477,1.15,15.943c0-12.653,17.955-14.5,19.819-3.191a.167.167,0,0,0,.17.155" transform="translate(0.178 0.813)" fill="#59b377"/>
+    <path id="Trazado_1698" data-name="Trazado 1698" d="M41.107,15.935c0,13.974-19.977,23.272-19.977,23.272S1.154,30.482,1.154,15.935c0-12.644,17.951-14.49,19.82-3.178a.163.163,0,0,0,.323,0C23.221,1.848,41.107,3.569,41.107,15.935Z" transform="translate(0.178 0.813)" fill="none" stroke="#2b824a" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_1699" data-name="Trazado 1699" d="M.733,20.966H13.581l3.111-6.425,2.875,12.511,4.01-12.511,3.261,12.511L29.2,20.8H41.177" transform="translate(0.113 2.246)" fill="none" stroke="#2b824a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+</svg>

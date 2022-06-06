@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161.534" height="28.746" viewBox="0 0 161.534 28.746">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_147" data-name="Rectángulo 147" width="161.534" height="28.745" fill="#ccc"/>
+    </clipPath>
+  </defs>
+  <g id="Logo_la7em" transform="translate(0 0)">
+    <rect id="Rectángulo_140" data-name="Rectángulo 140" width="6.383" height="28.493" transform="translate(0 0)" fill="#ccc"/>
+    <rect id="Rectángulo_141" data-name="Rectángulo 141" width="22.654" height="4.982" transform="translate(0.545 23.51)" fill="#ccc"/>
+    <path id="Trazado_2043" data-name="Trazado 2043" d="M99.013,0,85.545,28.492H92.24L105.708,0Z" transform="translate(-57.52 0)" fill="#ccc"/>
+    <path id="Trazado_2044" data-name="Trazado 2044" d="M130.693,0l13.39,28.493h6.539L137.233,0Z" transform="translate(-87.877 0)" fill="#ccc"/>
+    <g id="Grupo_126" data-name="Grupo 126" transform="translate(0 0)">
+      <g id="Grupo_125" data-name="Grupo 125" clip-path="url(#clip-path)">
+        <path id="Trazado_2045" data-name="Trazado 2045" d="M236.188,0l3.763,5.225-8.022,22.761a.758.758,0,0,1-.715.506h-4a.759.759,0,0,1-.716-1.011Z" transform="translate(-152.268 0)" fill="#ccc"/>
+        <path id="Trazado_2046" data-name="Trazado 2046" d="M206.2,5.294H189.073a.876.876,0,0,1-.876-.876V.876A.876.876,0,0,1,189.073,0h21.389Z" transform="translate(-126.542 0)" fill="#ccc"/>
+        <rect id="Rectángulo_142" data-name="Rectángulo 142" width="23.997" height="4.807" transform="translate(95.441 0)" fill="#ccc"/>
+        <rect id="Rectángulo_143" data-name="Rectángulo 143" width="23.997" height="4.807" transform="translate(95.441 11.843)" fill="#ccc"/>
+        <rect id="Rectángulo_144" data-name="Rectángulo 144" width="23.997" height="4.807" transform="translate(95.441 23.686)" fill="#ccc"/>
+        <rect id="Rectángulo_145" data-name="Rectángulo 145" width="6.131" height="28.492" transform="translate(124.751)" fill="#ccc"/>
+        <rect id="Rectángulo_146" data-name="Rectángulo 146" width="6.131" height="28.492" transform="translate(155.404)" fill="#ccc"/>
+        <path id="Trazado_2047" data-name="Trazado 2047" d="M398.375,0h-6.89l11.327,28.745h6.13Z" transform="translate(-263.23 0)" fill="#ccc"/>
+        <path id="Trazado_2048" data-name="Trazado 2048" d="M439.479,0h6.89L435.042,28.745h-6.13Z" transform="translate(-288.396 0)" fill="#ccc"/>
+      </g>
+    </g>
+  </g>
+</svg>
