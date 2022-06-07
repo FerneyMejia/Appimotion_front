@@ -402,18 +402,34 @@
         margin: 20px 0;
     } 
 
+
     .cta{
         height: 520px;
         flex-direction: column;
+        background-image: url("../img/img_banner_CTA_responsive.png");
+        position: relative;
     }
 
     .cta .cta_container {
         justify-content: center;
+        position: absolute;
+        z-index: 2;
+        top: 100px;
+
     }
 
     .cta .cta_info_container {
         width: 80%;
         text-align: center;
+    }
+
+    .cta .container_dark_back{
+        background-color: var(--black);
+        width: 100%;
+        height: 520px;
+        position: absolute;
+        z-index: 1;
+        opacity: 0.5;
     }
 
     .transport_type_container{
