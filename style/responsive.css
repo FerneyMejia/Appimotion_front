@@ -41,7 +41,7 @@
 }
 
 
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
 
     body{
         box-sizing: border-box;   
@@ -64,7 +64,7 @@
     }
 
     nav .active {
-        transform: translateX(800px);
+        transform: translateX(950px);
     }
 
     .hero{
@@ -104,32 +104,288 @@
         margin: 90px auto 0 auto;
     }
 
-    /* -------------- */
-
-    .our_tools_container{
-        display: none;
+    .transport_type_divisor {
+        margin: 80px auto;
     }
 
-    .time_line{
-        display: none;
+    .our_tools_container {
+        width: 90%;
     }
 
-    .transport_type_divisor{
-        display: none;
+    .time_line .time_line_container {
+        width: 90%;
     }
 
-    .contact_container{
-        display: none;
+    .time_line .time_line_container .time_line_card {
+        width: 150px;
+        height: 260px;
     }
 
-    .download_container{
-        display: none;
+    .time_line .time_line_container .our_news {
+        width: 90%;
     }
 
-    footer{
-        display: none;
+    .contact_container {
+        width: 90%;
+        margin-bottom: 80px;
     }
 
-  
+    .contact_container .contact_form_container {
+        width: 62%;
+        padding: 0 20px;
+    }
 
+    .contact_container .contact_form_container form input {
+        width: 90%;
+    }
+
+    .contact_container .contact_form_container p {
+        width: 90%;
+    }
+
+    .contact_container .contact_form_container form .submit_contact {
+        width: 95%;
+    }
+
+    .contact_container .contact_info_container {
+        padding: 20px 20px;
+    }
+
+    .download_container {
+        width: 90%;
+    }
+
+    .download_container > img {
+        width: 40%;
+    }
+
+    footer .footer_container {
+        width: 90%;
+    }
 }
+
+ /* -------------- */
+
+@media (max-width: 900px){
+
+    .benefic .container_benefics .img_benefic_mean {
+        margin-top: 70px;
+    }
+
+    .benefic .container_benefics {
+        grid-template-columns: 1fr 0.5fr 1fr;
+    }
+
+    .transport_type_container .transport_type_info_list {
+        width: 40%;
+    }
+
+    .transport_type_container .transport_type_info_list .transport_type_list ul {
+        padding-right: 20px;
+    }
+
+    .transport_type_container .transport_type_content_container {
+        padding-left: 35px;
+        padding-top: 0;
+    }
+
+    .transport_type_container .transport_type_info_list .transport_type_list {
+        display: block;
+        height: 300px;
+        overflow-y: scroll;
+        box-sizing: border-box;
+    }
+
+    .transport_type_container .transport_type_info_list .transport_type_list ul {
+        padding-right: 0;
+    }
+
+    .transport_type_container .transport_type_info_list .transport_type_list li {
+        margin-bottom: 0;
+    }
+
+    .transport_type_container .transport_type_info_list .transport_type_list button {
+        padding: 8px 0;
+    }
+
+    .transport_type_container .transport_type_info_list p {
+        width: 100%;
+    }
+
+    .time_line .time_line_container .time_line_card h2 {
+        font-size: 30px;
+    }
+
+    .time_line .time_line_container .time_line_card {
+        width: 129px;
+        height: 239px;
+    }
+}
+
+ /* -------------- */
+
+ @media (max-width: 768px){
+    .hero .container_hero {
+        width: 95%;
+    }
+
+    .hero .container_hero .container_info_hero h1 {
+        font-size: var(--h2);
+        line-height: var(--h2-line-spacing);
+    }
+
+    .p_general {
+        width: 70%;
+    }
+
+    .benefic {
+        width: 95%;
+    }
+
+    .steps .steps_container {
+        width: 95%;
+    }
+
+    .transport_type_container {
+        width: 95%;
+    }
+
+    .transport_type_container .transport_type_content_container {
+        padding-left: 24px;
+    }
+
+    .our_tools_container {
+        width: 95%;
+    }
+
+    .time_line .time_line_container {
+        width: 95%;
+    }
+
+    .time_line .time_line_container .our_news {
+        width: 95%;
+    }
+
+    .time_line .time_line_container .our_news a img{
+        width: 80%;
+    }
+
+    .contact_container {
+        width: 95%;
+    }
+
+    .contact_container .contact_info_container > h3{
+        margin: 0;
+    }
+
+    .contact_container .contact_info_container .contact_logo_container {
+        margin-top: 20px;
+    }
+
+    .download_container {
+        width: 95%;
+    }
+
+    .download_container .download_info_container a{
+        width: 250px;
+    }
+
+    footer .footer_container .footer_menu ul {
+        display: none;
+    }
+
+    footer .footer_container .footer_menu {
+        width: 10%;
+    }
+
+    footer .footer_container {
+        width: 95%;
+        justify-content: space-evenly;
+    }
+
+ }
+
+
+ /* -------------- */
+
+ @media (max-width: 425px){
+
+     .benefic, .steps, .cta, .transport_type_container, .our_tools_container, .time_line, .contact_container, .download_container, footer{
+        display: none;
+    }
+
+    nav {
+        box-shadow: 0px 1px 8px #0000001A;
+    }
+
+    .container_nav .info_nav_right a{
+        display: none;
+    }
+
+    .container_nav .info_nav_right .line_divisor{
+        display: none;
+    }
+
+    .hero .container_hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .container_hero .container_info_hero {
+        padding-right: 0px;
+    }
+
+    .hero .container_hero {
+        padding-top: 114px;
+    }
+
+    .hero .container_hero .container_info_hero h1 {
+        margin-bottom: 40px;
+    }
+
+    .hero .container_hero{
+        position: relative;
+        overflow-x: hidden;
+        box-sizing: border-box;
+        height: 700px;
+        width: 100%;
+    }
+
+    .hero .container_hero .container_info_hero{
+        width: 85%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 3;
+    }
+
+    .hero .container_hero .container_info_hero button{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -230px;
+        width: 110%;
+    }
+
+    .hero .container_hero .degradado_background {
+        background: transparent linear-gradient(180deg, #FFDC8C 0%, #ffdc8c69 100%);
+        width: 100%;
+        height: 580px;
+        position: absolute;
+        z-index: 2;
+    }
+
+    .hero .container_hero img {
+        width: 119%;
+        position: absolute;
+       bottom: 0px;
+       z-index: 1;
+    }
+
+ }
+
+
+
+ /* .hero, .benefic, .steps, .cta, .transport_type_container, .our_tools_container, .time_line, .contact_container, .download_container, footer{
+    display: none;
+} */
