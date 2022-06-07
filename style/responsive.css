@@ -310,10 +310,6 @@
 
  @media (max-width: 425px){
 
-     .benefic, .steps, .cta, .transport_type_container, .our_tools_container, .time_line, .contact_container, .download_container, footer{
-        display: none;
-    }
-
     nav {
         box-shadow: 0px 1px 8px #0000001A;
     }
@@ -381,6 +377,68 @@
        bottom: 0px;
        z-index: 1;
     }
+
+    .p_general {
+        width: 100%;
+    }
+
+    .benefic .container_benefics{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefic .container_benefics .item_benefic{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .benefic .container_benefics .item_benefic p{
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    .benefic .container_benefics .img_benefic_mean{
+        margin: 20px 0;
+    } 
+
+    .cta{
+        height: 520px;
+        flex-direction: column;
+    }
+
+    .cta .cta_container {
+        justify-content: center;
+    }
+
+    .cta .cta_info_container {
+        width: 80%;
+        text-align: center;
+    }
+
+    .transport_type_container{
+        flex-direction: column;
+    }
+
+    .transport_type_container .transport_type_info_list {
+        width: 100%;
+    }
+
+    .transport_type_container .transport_type_content_container {
+        padding-left: 0;
+        width: 90%;
+    }
+
+    .transport_type_container .transport_type_description img {
+        margin: 0 auto;
+    }
+
+
+    .our_tools_container, .time_line, .contact_container, .download_container, footer{
+        display: none;
+    }
+
+    
 
  }
 
