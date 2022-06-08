@@ -434,23 +434,102 @@
 
     .transport_type_container{
         flex-direction: column;
+        position: relative;
+    }
+
+    .transport_type_container button{
+        margin: 0;
+    }
+
+    .transport_type_container button:focus{
+        background-color: transparent;
+
+    }
+
+    .transport_type_container .option_bike_hidden {
+        display: flex; 
+    }
+
+    .transport_type_container .option_bike_hidden::after{
+        content: url("../icon/icon_arrow_bottom.svg");
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
     }
 
     .transport_type_container .transport_type_info_list {
         width: 100%;
     }
 
+    .transport_type_container .transport_type_info_list ul{
+        list-style: none;
+        padding: 0;
+    }
+
+
+    .transport_type_container .transport_type_info_list ul .transport_type_list {
+        position: absolute;
+        background-color: var(--white);
+        border-radius: 10px;
+        border: 1px solid var(--gray3);
+        opacity: 0;
+        display: none;
+        width: 300px;
+    }   
+
+    .transport_type_container .transport_type_info_list ul li button:hover{
+        color: var(--green-hard);
+    }
+
+    .transport_type_container .transport_type_info_list ul li:hover > .transport_type_list{
+        opacity: 1; 
+        display: block;
+        transition: all 400ms; 
+    }
+
+    .transport_type_container .transport_type_info_list .transport_type_list li {
+        text-align: start; 
+        border-bottom: 1px solid var(--gray3);
+        width: 90%;       
+        margin: auto;
+    }
+
     .transport_type_container .transport_type_content_container {
         padding-left: 0;
         width: 90%;
+        margin-top: 8px;
     }
 
     .transport_type_container .transport_type_description img {
         margin: 0 auto;
     }
 
+    .our_tools_container{
+        flex-direction: column-reverse;
+    }
 
-    .our_tools_container, .time_line, .contact_container, .download_container, footer{
+    .our_tools_container .our_tools_img {
+        width: 90%
+    }
+
+    .our_tools_container .our_tools_info {
+        width: 100%;
+    }
+
+    .time_line .time_line_container .time_line_cards_container {
+        flex-wrap: wrap;
+    }
+
+    .time_line .time_line_container .time_line_card {
+        width: 40%;
+        height: auto;
+        padding-bottom: 12px;
+        margin-bottom: 60px;
+    }
+
+
+
+    .contact_container, .download_container, footer{
         display: none;
     }
 

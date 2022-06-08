@@ -572,6 +572,12 @@ nav .active{
     align-items: center;
 }
 
+.option_bike_hidden{
+    display: none;
+}
+
+.transport_type_list
+
 .transport_type_container .transport_type_info_list{
     width: 50%;
 }
@@ -580,11 +586,11 @@ nav .active{
     width: 80%;
 }
 
-.transport_type_container .transport_type_info_list .transport_type_list{
+.transport_type_container .transport_type_info_list ul .transport_type_list{
     display: flex;
 }
 
-.transport_type_container .transport_type_info_list .transport_type_list ul{
+.transport_type_container .transport_type_info_list ul{
     list-style: none;
     padding: 0;
     margin: 0;
@@ -596,7 +602,7 @@ nav .active{
     text-align: center;
 }
 
-.transport_type_container .transport_type_info_list .transport_type_list button{
+.transport_type_container  button{
     text-decoration: none;
     font-size: var(--h3);
     font-weight: var(--bold);
@@ -609,7 +615,7 @@ nav .active{
     font-family: 'Poppins', sans-serif;
 }
 
-.transport_type_container .transport_type_info_list .transport_type_list button:focus{
+.transport_type_container button:focus{
     background-color: var(--green-hard);
     padding: 12px 12px;
     border-radius: 50px;
