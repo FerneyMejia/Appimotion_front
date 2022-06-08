@@ -108,9 +108,13 @@ nav .container_nav{
     margin-top: 8px;
 }
 
-nav .container_nav > img{
+nav .container_nav a > img{
     width: 160px;
     height: auto;
+}
+
+nav .container_nav a > img:hover{
+    filter: brightness(0.8);
 }
 
 nav .container_nav .info_nav_right{
@@ -305,6 +309,10 @@ nav .active{
 
 .hero .container_hero .container_info_hero{
     padding-right: 80px;
+}
+
+.hero .container_hero a{
+    text-decoration: none;
 }
 
 .hero .container_hero .container_info_hero h1{

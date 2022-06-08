@@ -527,11 +527,90 @@
         margin-bottom: 60px;
     }
 
+    .time_line .time_line_container .our_news{
+        justify-content: flex-start; 
+        overflow-x: scroll;
+        box-sizing: border-box; 
+        padding: 0 0px 16px 16px;
+        align-items: center;
+        margin-bottom: 90px;
+    }
 
+    .time_line .time_line_container .our_news a{
+        margin-right: 40px;
+    }
 
-    .contact_container, .download_container, footer{
+    .time_line .time_line_container .our_news a img{
+        height: 60px;
+        width: auto;
+    }
+
+    .time_line .time_line_container .our_news a .logo_la7em{
+        height: 30px;
+    }
+
+    .contact_container{
+        flex-direction: column;
+    }
+
+    .contact_container .contact_form_container {
+        width: 90%;
+        padding: 0;
+    }
+
+    .contact_container .contact_info_container {
+        width: 90%;
+        margin-top: 40px;
+    }
+
+    .contact_container .contact_info_container .contact_items_info{
         display: none;
     }
+
+    .download_container {
+        flex-direction: column;  
+        margin-bottom: 90px;      
+    }
+
+    .download_container > img {
+        width: 80%;
+    }
+
+    .download_container .download_info_container {
+        width: 90%;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .download_container .download_info_container a {
+        margin: 0 auto 28px auto;
+        text-decoration: none;
+        width: 100%;
+    }
+
+    footer .footer_container {
+        width: 95%;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    footer .footer_container .footer_contact_appi {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    footer .footer_container .footer_info_sier {
+        width: 90%;
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
 
     
 
