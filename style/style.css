@@ -312,6 +312,7 @@ nav .active{
 }
 
 .hero .container_hero a{
+    padding: 12px 52px; 
     text-decoration: none;
 }
 
@@ -559,6 +560,8 @@ nav .active{
 .cta .cta_info_container .button_cta{
     background-color: var(--yellow-soft);
     color: var(--black);
+    padding: 12px 60px;
+    text-decoration: none;
 }
 
 .cta .cta_info_container .button_cta:hover{
@@ -737,10 +740,22 @@ nav .active{
     margin-top: 20px;
 }
 
+.our_tools_container .our_tools_info .our_tools_titles .our_tool_btn:hover{
+    border-bottom: 4px solid var(--gray4);
+    color: var(--green-soft);
+    font-family: 'Poppins', sans-serif;
+    transition: all 300ms;
+}
+
 .our_tools_container .our_tools_info .our_tools_titles .our_tool_btn_active{
     color: var(--green);
     border-bottom: 6px solid var(--green);
 } 
+
+.our_tools_container .our_tools_info .our_tools_titles .our_tool_btn_active:hover{
+    color: var(--green);
+    border-bottom: 6px solid var(--green);
+}
 
 .our_tools_container .our_tools_info .our_tools_titles a{
     text-decoration: none;

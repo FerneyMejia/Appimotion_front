@@ -48,11 +48,6 @@
         overflow-x: hidden; 
     } 
 
-    
-    /* nav .container_nav .info_nav_right a{
-        display: none;
-    } */
-
     nav .menu_content{
         width: 80%;
         padding-top: 50px;
@@ -176,40 +171,79 @@
         grid-template-columns: 1fr 0.5fr 1fr;
     }
 
+    .transport_type_container{
+        flex-direction: column;
+        position: relative;
+    }
+
+    .transport_type_container button{
+        margin: 0;
+    }
+
+    .transport_type_container button:focus{
+        background-color: transparent;
+
+    }
+
+    .transport_type_container .option_bike_hidden {
+        display: flex; 
+    }
+
+    .transport_type_container .option_bike_hidden::after{
+        content: url("../icon/icon_arrow_bottom.svg");
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+    }
+
     .transport_type_container .transport_type_info_list {
-        width: 40%;
+        width: 100%;
     }
 
-    .transport_type_container .transport_type_info_list .transport_type_list ul {
-        padding-right: 20px;
+    .transport_type_container .transport_type_info_list ul{
+        list-style: none;
+        padding: 0;
     }
 
-    .transport_type_container .transport_type_content_container {
-        padding-left: 35px;
-        padding-top: 0;
-    }
 
-    .transport_type_container .transport_type_info_list .transport_type_list {
-        display: block;
+    .transport_type_container .transport_type_info_list ul .transport_type_list {
+        position: absolute;
+        background-color: var(--white);
+        border-radius: 10px;
+        border: 1px solid var(--gray3);
+        opacity: 0;
+        display: none;
+        width: 300px;
         height: 300px;
         overflow-y: scroll;
-        box-sizing: border-box;
+    }   
+
+    .transport_type_container .transport_type_info_list ul li button:hover{
+        color: var(--green-hard);
     }
 
-    .transport_type_container .transport_type_info_list .transport_type_list ul {
-        padding-right: 0;
+    .transport_type_container .transport_type_info_list ul li:hover > .transport_type_list{
+        opacity: 1; 
+        display: block;
+        transition: all 400ms; 
     }
 
     .transport_type_container .transport_type_info_list .transport_type_list li {
-        margin-bottom: 0;
+        text-align: start; 
+        border-bottom: 1px solid var(--gray3);
+        width: 90%;       
+        margin: auto;
     }
 
-    .transport_type_container .transport_type_info_list .transport_type_list button {
-        padding: 8px 0;
+    .transport_type_container .transport_type_content_container {
+        padding-left: 0;
+        padding-top: 20px;
+        width: 90%;
+        margin-top: 8px;
     }
 
-    .transport_type_container .transport_type_info_list p {
-        width: 100%;
+    .transport_type_container .transport_type_description img {
+        width: 50%;
     }
 
     .time_line .time_line_container .time_line_card h2 {
@@ -244,14 +278,6 @@
 
     .steps .steps_container {
         width: 95%;
-    }
-
-    .transport_type_container {
-        width: 95%;
-    }
-
-    .transport_type_container .transport_type_content_container {
-        padding-left: 24px;
     }
 
     .our_tools_container {
@@ -306,6 +332,71 @@
  }
 
 
+  /* -------------- */
+
+  @media (max-width: 640px){
+    
+    .hero .container_hero a {
+        padding: 12px 8px;
+    }
+
+    .benefic .container_benefics{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benefic .container_benefics .item_benefic{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+
+    .benefic .container_benefics .item_benefic p{
+        width: 100%;
+        padding-left: 16px;
+    }
+
+    .benefic .container_benefics .img_benefic_mean{
+        margin: 20px 0;
+        padding: 0 88px;
+    } 
+
+    .time_line .time_line_container .time_line_cards_container {
+        flex-wrap: wrap;
+    }
+
+    .time_line .time_line_container .time_line_card {
+        width: 40%;
+        height: auto;
+        padding-bottom: 12px;
+        margin-bottom: 60px;
+    }
+
+    .time_line .time_line_container .our_news{
+        justify-content: flex-start; 
+        overflow-x: scroll;
+        box-sizing: border-box; 
+        padding: 0 0px 16px 16px;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    .time_line .time_line_container .our_news a{
+        margin-right: 40px;
+    }
+
+    .time_line .time_line_container .our_news a img{
+        height: 60px;
+        width: auto;
+    }
+
+    .time_line .time_line_container .our_news a .logo_la7em{
+        height: 30px;
+    }
+
+  }
+
+
  /* -------------- */
 
  @media (max-width: 425px){
@@ -355,12 +446,13 @@
         z-index: 3;
     }
 
-    .hero .container_hero .container_info_hero button{
+    .hero .container_hero .container_info_hero a{
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         bottom: -230px;
-        width: 110%;
+        height: 28px;
+        width: 70%;
     }
 
     .hero .container_hero .degradado_background {
@@ -382,24 +474,8 @@
         width: 100%;
     }
 
-    .benefic .container_benefics{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .benefic .container_benefics .item_benefic{
-        display: flex;
-        align-items: center;
-        margin-bottom: 16px;
-    }
-
-    .benefic .container_benefics .item_benefic p{
-        width: 100%;
-        padding-left: 16px;
-    }
-
     .benefic .container_benefics .img_benefic_mean{
-        margin: 20px 0;
+        padding: 0;
     } 
 
 
@@ -432,76 +508,9 @@
         opacity: 0.5;
     }
 
-    .transport_type_container{
-        flex-direction: column;
-        position: relative;
-    }
-
-    .transport_type_container button{
-        margin: 0;
-    }
-
-    .transport_type_container button:focus{
-        background-color: transparent;
-
-    }
-
-    .transport_type_container .option_bike_hidden {
-        display: flex; 
-    }
-
-    .transport_type_container .option_bike_hidden::after{
-        content: url("../icon/icon_arrow_bottom.svg");
-        width: 20px;
-        height: 20px;
-        margin-left: 20px;
-    }
-
-    .transport_type_container .transport_type_info_list {
-        width: 100%;
-    }
-
-    .transport_type_container .transport_type_info_list ul{
-        list-style: none;
-        padding: 0;
-    }
-
-
-    .transport_type_container .transport_type_info_list ul .transport_type_list {
-        position: absolute;
-        background-color: var(--white);
-        border-radius: 10px;
-        border: 1px solid var(--gray3);
-        opacity: 0;
-        display: none;
-        width: 300px;
-    }   
-
-    .transport_type_container .transport_type_info_list ul li button:hover{
-        color: var(--green-hard);
-    }
-
-    .transport_type_container .transport_type_info_list ul li:hover > .transport_type_list{
-        opacity: 1; 
-        display: block;
-        transition: all 400ms; 
-    }
-
-    .transport_type_container .transport_type_info_list .transport_type_list li {
-        text-align: start; 
-        border-bottom: 1px solid var(--gray3);
-        width: 90%;       
-        margin: auto;
-    }
-
-    .transport_type_container .transport_type_content_container {
-        padding-left: 0;
-        width: 90%;
-        margin-top: 8px;
-    }
-
     .transport_type_container .transport_type_description img {
-        margin: 0 auto;
+        width: 80%;
+        margin: 0;
     }
 
     .our_tools_container{
@@ -516,7 +525,7 @@
         width: 100%;
     }
 
-    .time_line .time_line_container .time_line_cards_container {
+    /* .time_line .time_line_container .time_line_cards_container {
         flex-wrap: wrap;
     }
 
@@ -547,7 +556,7 @@
 
     .time_line .time_line_container .our_news a .logo_la7em{
         height: 30px;
-    }
+    } */
 
     .contact_container{
         flex-direction: column;
